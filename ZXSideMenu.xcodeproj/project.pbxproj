@@ -10,11 +10,11 @@
 		F0949CED1BF052C500F656C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0949CEC1BF052C500F656C7 /* main.m */; };
 		F0949CF01BF052C500F656C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0949CEF1BF052C500F656C7 /* AppDelegate.m */; };
 		F0949CF31BF052C500F656C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0949CF21BF052C500F656C7 /* ViewController.m */; };
-		F0949CF61BF052C500F656C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0949CF41BF052C500F656C7 /* Main.storyboard */; };
 		F0949CF81BF052C500F656C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0949CF71BF052C500F656C7 /* Assets.xcassets */; };
 		F0949CFB1BF052C500F656C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0949CF91BF052C500F656C7 /* LaunchScreen.storyboard */; };
 		F0949D061BF052C600F656C7 /* ZXSideMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0949D051BF052C600F656C7 /* ZXSideMenuTests.m */; };
 		F0949D111BF052C600F656C7 /* ZXSideMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0949D101BF052C600F656C7 /* ZXSideMenuUITests.m */; };
+		F0FAEC4B1BF08BF8001E4D24 /* ZXSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FAEC4A1BF08BF8001E4D24 /* ZXSideMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		F0949CEF1BF052C500F656C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F0949CF11BF052C500F656C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F0949CF21BF052C500F656C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F0949CF51BF052C500F656C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0949CF71BF052C500F656C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0949CFA1BF052C500F656C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F0949CFC1BF052C500F656C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		F0949D0C1BF052C600F656C7 /* ZXSideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0949D101BF052C600F656C7 /* ZXSideMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXSideMenuUITests.m; sourceTree = "<group>"; };
 		F0949D121BF052C600F656C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0FAEC491BF08BF8001E4D24 /* ZXSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSideMenu.h; sourceTree = "<group>"; };
+		F0FAEC4A1BF08BF8001E4D24 /* ZXSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSideMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,8 @@
 				F0949CEF1BF052C500F656C7 /* AppDelegate.m */,
 				F0949CF11BF052C500F656C7 /* ViewController.h */,
 				F0949CF21BF052C500F656C7 /* ViewController.m */,
-				F0949CF41BF052C500F656C7 /* Main.storyboard */,
+				F0FAEC491BF08BF8001E4D24 /* ZXSideMenu.h */,
+				F0FAEC4A1BF08BF8001E4D24 /* ZXSideMenu.m */,
 				F0949CF71BF052C500F656C7 /* Assets.xcassets */,
 				F0949CF91BF052C500F656C7 /* LaunchScreen.storyboard */,
 				F0949CFC1BF052C500F656C7 /* Info.plist */,
@@ -245,7 +247,6 @@
 			files = (
 				F0949CFB1BF052C500F656C7 /* LaunchScreen.storyboard in Resources */,
 				F0949CF81BF052C500F656C7 /* Assets.xcassets in Resources */,
-				F0949CF61BF052C500F656C7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +274,7 @@
 				F0949CF31BF052C500F656C7 /* ViewController.m in Sources */,
 				F0949CF01BF052C500F656C7 /* AppDelegate.m in Sources */,
 				F0949CED1BF052C500F656C7 /* main.m in Sources */,
+				F0FAEC4B1BF08BF8001E4D24 /* ZXSideMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +310,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F0949CF41BF052C500F656C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0949CF51BF052C500F656C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F0949CF91BF052C500F656C7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZXSideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.ZXSideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZXSideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.weplus.ZXSideMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +492,7 @@
 				F0949D171BF052C600F656C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0949D181BF052C600F656C7 /* Build configuration list for PBXNativeTarget "ZXSideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +501,7 @@
 				F0949D1A1BF052C600F656C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0949D1B1BF052C600F656C7 /* Build configuration list for PBXNativeTarget "ZXSideMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +510,7 @@
 				F0949D1D1BF052C600F656C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
